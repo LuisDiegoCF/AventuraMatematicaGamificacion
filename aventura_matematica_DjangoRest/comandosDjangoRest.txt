@@ -1,0 +1,16 @@
+Crear una nueva aplicación en el proyecto:
+python manage.py startapp nombre_app
+
+Crear migraciones después de cambiar los modelos:
+python manage.py makemigrations
+
+Aplicar migraciones al esquema de la base de datos:
+python manage.py migrate
+
+Crear un superusuario:
+python manage.py createsuperuser
+
+Iniciar el servidor de desarrollo:
+python manage.py runserver
+
+
